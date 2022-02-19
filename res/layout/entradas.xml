@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+	android:id="@+id/seg0"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/fondo2">
+	
+<TextView
+	android:id="@+id/seg1"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:textColor="#000000"
+	android:textSize="26sp"
+	android:layout_x="5dp"
+	android:layout_y="5dp"
+	android:shadowColor="#ffffff"
+	android:shadowDx="0" 
+	android:shadowDy="0" 
+	android:shadowRadius="2" 
+	android:text="ENTRADA DE DATOS"/>
+	
+<TextView 
+	android:layout_width="wrap_content" 
+	android:textColor="#000000" 
+	android:textSize="16sp" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/seg2" 
+	android:layout_x="5dip" 
+	android:shadowColor="#ffffff"
+	android:shadowDx="0" 
+	android:shadowDy="0" 
+	android:shadowRadius="2" 
+	android:text="fecha:" android:layout_y="100dip">
+</TextView>
+
+<EditText 
+	android:layout_height="wrap_content" 
+	android:textSize="20sp" 
+	android:layout_width="wrap_content" 
+	android:layout_x="100dip" 
+	android:inputType="numberDecimal" android:layout_y="250dip" android:text="1" android:id="@+id/seg3" android:gravity="right">
+</EditText>
+
+<EditText 
+	android:layout_height="wrap_content" 
+	android:id="@+id/seg5" 
+	android:textSize="20sp" 
+	android:text="0" 
+	android:layout_width="wrap_content" 
+	android:layout_x="100dip" android:layout_y="200dip" android:inputType="number" android:gravity="right">
+	</EditText>
+<TextView 
+	android:layout_width="wrap_content" 
+	android:textColor="#000000" 
+	android:textSize="16sp" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/seg6" 
+	android:layout_x="5dip" 
+	android:shadowColor="#ffffff"
+	android:shadowDx="0" 
+	android:shadowDy="0" 
+	android:shadowRadius="2" 
+	android:text="concepto:" android:layout_y="150dip">
+	</TextView>
+	
+	
+<TextView 
+	android:layout_width="wrap_content" 
+	android:textColor="#000000" 
+	android:textSize="16sp" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/seg8" 
+	android:layout_x="5dip" 
+	android:shadowColor="#ffffff"
+	android:shadowDx="0" 
+	android:shadowDy="0" 
+	android:shadowRadius="2" 
+	android:text="cant.:" android:layout_y="250dip">
+	</TextView>	
+	
+	<TextView 
+	android:layout_width="wrap_content" 
+	android:textColor="#000000" 
+	android:textSize="16sp" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/seg10" 
+	android:layout_x="5dip" 
+	android:shadowColor="#ffffff"
+	android:shadowDx="0" 
+	android:shadowDy="0" 
+	android:shadowRadius="2" 
+	android:text="tarea:" 
+	android:layout_y="50dip">
+	</TextView>
+	
+	<TextView 
+	android:layout_width="wrap_content" 
+	android:textColor="#000000" 
+	android:textSize="16sp" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/seg4" 
+	android:layout_x="5dip" 
+	android:shadowColor="#ffffff"
+	android:shadowDx="0" 
+	android:shadowDy="0" 
+	android:shadowRadius="2" 
+	android:text="valor:" android:layout_y="200dip">
+	</TextView>
+	
+	
+	
+<EditText 
+	android:layout_height="wrap_content" 
+	android:id="@+id/seg7" 
+	android:textSize="20sp" 
+	android:text="dd.mm.aaaa" 
+	android:layout_width="wrap_content" 
+	android:layout_x="100dip" 
+	android:layout_y="100dip" android:inputType="date">
+	</EditText>
+	
+		
+<EditText 
+	android:layout_height="wrap_content" 
+	android:id="@+id/seg9" 
+	android:textSize="20sp" 
+	android:layout_width="wrap_content" 
+	android:layout_x="100dip" 
+	android:layout_y="150dip" android:inputType="text" android:minWidth="200dip" android:text="introduce concepto">
+	</EditText>
+	
+	
+	
+<TextView 
+	android:layout_width="wrap_content" 
+	android:textColor="#000000" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/seg12" 
+	android:layout_y="320dip"
+	android:shadowColor="#ffffff"
+	android:shadowDx="0" 
+	android:shadowDy="0" 
+	android:shadowRadius="3" 
+	android:textSize="20sp" 
+	android:layout_x="35dip" android:text="GASTOS">
+	</TextView>
+	
+	<ImageView 
+	android:id="@+id/seg13" 
+	android:layout_width="80dip" 
+	android:layout_height="80dip" 
+	android:layout_y="350dip"
+	android:layout_x="35dip" android:background="@drawable/trabajo" android:onClick="entrada_trabajo">
+</ImageView>
+
+
+	
+	
+
+	
+	
+<TextView 
+	android:layout_width="wrap_content" 
+	android:textColor="#000000" 
+	android:layout_height="wrap_content" 
+	android:id="@+id/seg16" 
+	android:layout_y="320dip"
+	android:shadowColor="#ffffff"
+	android:shadowDx="0" 
+	android:shadowDy="0" 
+	android:shadowRadius="3" 
+	android:textSize="20sp" android:text="RECIBIDO" android:layout_x="200dip">
+	</TextView>
+	
+	
+<ImageView 
+	android:id="@+id/seg17" 
+	android:layout_width="80dip" 
+	android:layout_height="80dip" 
+	android:layout_x="200dip" 
+	android:layout_y="350dip"
+	android:background="@drawable/recibi" android:onClick="entrada_efectivo">
+</ImageView>
+
+<Spinner 
+android:id="@+id/Spinner01" 
+android:layout_width="wrap_content" 
+android:layout_height="wrap_content" 
+android:layout_x="100dip" android:layout_y="50dip">
+</Spinner>
+</AbsoluteLayout>
+	
